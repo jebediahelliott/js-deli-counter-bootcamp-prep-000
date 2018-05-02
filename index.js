@@ -23,7 +23,11 @@ function currentLine(katzDeliLine)
   }
   else
   {
-    while()
-    return `The line is currently: 1.`;
+    for(let i = 0; i < katzDeliLine.length; i++)
+    {
+      var lineOrder = [];
+      lineOrder[i] = `${i + 1}. ${katzDeliLine[i]}, `;
+    }
+    return `The line is currently: ${lineOrder}`
   }
 }
