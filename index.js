@@ -28,7 +28,7 @@ function currentLine(katzDeliLine)
     {
       if(i === katzDeliLine.length - 1)
       {
-        linOrder.push(`${i + 1}. ${katzDeliLine[i]}`);
+        lineOrder.push(`${i + 1}. ${katzDeliLine[i]}`);
       }
       else
       {
