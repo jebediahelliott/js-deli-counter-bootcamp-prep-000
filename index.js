@@ -26,7 +26,7 @@ function currentLine(katzDeliLine)
     for(let i = 0; i < katzDeliLine.length; i++)
     {
       var lineOrder = [];
-      lineOrder[i] = `${i + 1}. ${katzDeliLine[i]}, `;
+      lineOrder.push()
     }
     return `The line is currently: ${lineOrder}`
   }
