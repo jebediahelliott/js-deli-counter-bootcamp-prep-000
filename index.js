@@ -28,6 +28,10 @@ function currentLine(katzDeliLine)
     {
       if(i === katzDeliLine.length - 1)
       {
+        lineOrder.push(` ${i + 1}. ${katzDeliLine[i]}`);
+      }
+      else if(i === 0)
+      {
         lineOrder.push(`${i + 1}. ${katzDeliLine[i]}`);
       }
       else
