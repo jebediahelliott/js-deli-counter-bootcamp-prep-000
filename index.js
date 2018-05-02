@@ -32,7 +32,7 @@ function currentLine(katzDeliLine)
       }
       else
       {
-        lineOrder.push(`${i + 1}. ${katzDeliLine[i + " "]}`);
+        lineOrder.push(`${i + 1}. ${katzDeliLine[i] + " "}`);
       }
     }
     return `The line is currently: ${lineOrder}`;
