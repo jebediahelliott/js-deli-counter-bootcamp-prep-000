@@ -23,6 +23,7 @@ function currentLine(katzDeliLine)
   }
   else
   {
+    while()
     return `The line is currently: 1.`;
   }
 }
